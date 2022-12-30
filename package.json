@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "「小鸣助手」项目客户端配置文件",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -12,6 +13,10 @@
   },
   "author": "inlym",
   "license": "MIT",
+  "keywords": [
+    "life-helper",
+    "inlym"
+  ],
   "bugs": {
     "url": "https://github.com/inlym/life-helper-secret/issues"
   },
