@@ -1,11 +1,14 @@
 {
   "name": "life-helper-secret",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "「小鸣助手」项目客户端配置文件",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "clear": "rimraf dist",
+    "publish": "npm run clear && npm run build && npm publish",
+    "show": "npm config get registry"
   },
   "repository": {
     "type": "git",
@@ -28,6 +31,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.1",
+    "rimraf": "^3.0.2",
     "typescript": "^4.9.4"
   }
 }
