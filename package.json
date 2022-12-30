@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "clear": "rimraf dist",
-    "publish": "npm run clear && npm run build && npm publish",
+    "release": "npm run clear && npm run build && npm publish",
     "show": "npm config get registry"
   },
   "repository": {
